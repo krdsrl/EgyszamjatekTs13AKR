@@ -95,7 +95,7 @@ export default class Content {
             .toString()
             .split("\n")
             .forEach(i => {
-                res.write(i.trim + "\n");
+                res.write(i.trim() + "\n");
             });
         //nyertes.txt tartalma
         try {
